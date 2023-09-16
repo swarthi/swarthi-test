@@ -1,0 +1,30 @@
+{
+  "name": "swarthi-test",
+  "version": "0.0.0",
+  "description": "teting npm package",
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "prepare": "yarn build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/swarthi/swarthi-test.git"
+  },
+  "keywords": [
+    "test",
+    "swarthi"
+  ],
+  "author": "sWaRtHi <yadujain@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/swarthi/swarthi-test/issues"
+  },
+  "homepage": "https://github.com/swarthi/swarthi-test#readme",
+  "devDependencies": {
+    "typescript": "^5.2.2"
+  },
+  "dependencies": {},
+  "files": ["lib/**/*"]
+}
